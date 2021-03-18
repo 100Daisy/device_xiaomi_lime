@@ -304,6 +304,14 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.1.vendor \
     vendor.qti.hardware.servicetracker@1.2.vendor
 
+# FM
+PRODUCT_PACKAGES += \
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio
+
+PRODUCT_PACKAGES += \
+    android.hardware.broadcastradio@1.0-impl
 # Seccomp policy
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/seccomp/configstore@1.1.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/configstore@1.1.policy \
