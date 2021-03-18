@@ -75,7 +75,10 @@ PRODUCT_PACKAGES += \
     XiaomiBluetooth \
     XiaomiFrameworks
 
-# WiFi
+# AID/fs configs
+PRODUCT_PACKAGES += \
+    fs_config_files
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/hostapd:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/bin/hw/hostapd \
     $(LOCAL_PATH)/configs/wifi/hostapd.accept:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.accept \
