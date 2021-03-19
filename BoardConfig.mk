@@ -33,6 +33,9 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 # Board
 TARGET_BOOTLOADER_BOARD_NAME := bengal
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := lime,lemon,citrus,pomelo
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
